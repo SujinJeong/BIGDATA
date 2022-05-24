@@ -8,3 +8,34 @@
 /dataSources.local.xml
 # Zeppelin ignored files
 /ZeppelinRemoteNotebooks/
+
+##### macOS
+.DS_Store
+##### intellij
+.idea/
+*.iml
+##### eclipse
+.settings/
+.classpath
+.project
+### VisualStudioCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+##### git
+.git/
+##### maven
+target/
+##### gradle
+build/
+##### Node
+node_modules/
+##### etc
+out/
+_DOC/
+test/
+META-INF/
+log4sql*
